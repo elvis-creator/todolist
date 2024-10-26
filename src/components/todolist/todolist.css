@@ -1,4 +1,7 @@
 .todolist-container {
+    position: absolute;
+    top: 0;
+    left: 20px;
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
