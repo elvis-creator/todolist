@@ -3,6 +3,7 @@ import './App.css'
 import Todolist from './components/todolist/todolist'
 import Todolistform from './components/todolistform/todolistform'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -10,6 +11,7 @@ function App() {
     <>
     <Todolist/>
     <Todolistform/>
+    <Gallery/>
     </>
   )
 }
