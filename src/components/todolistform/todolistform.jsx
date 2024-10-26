@@ -1,18 +1,20 @@
-import React from 'react'
-import './todolistform.css'
+import React, { useState } from "react";
+import "./todolistform.css";
 
 function Todolistform() {
+
+  
   return (
-    <div>
-    <form>
-        <label htmlFor="title">title</label>
-        <input/>
+    <div className="form-container">
+      <form>
+        <label htmlFor="title">Title</label>
+        <input type="text" id="title" required />
         <label htmlFor="completed">Completed</label>
-        <input/>
-        <button></button>
-    </form>
+        <input type="checkbox" id="completed" />
+        <button type="submit">Submit</button>
+      </form>
     </div>
-  )
+  );
 }
 
-export default Todolistform
+export default Todolistform;
