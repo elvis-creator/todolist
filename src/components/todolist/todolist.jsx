@@ -8,7 +8,7 @@ const Todolist = () => {
   const fetchData = async () => {
     const response = await axios.get('https://jsonplaceholder.typicode.com/todos');
     const data = response.data;
-    setTodos(data);
+    setTodos(data);  //setter function
     console.log("data", data);
   };
 

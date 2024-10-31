@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Todolist from './components/todolist/todolist'
 import Todolistform from './components/todolistform/todolistform'
+import Gallery from './components/gallery/gallery'
+
 
 
 function App() {
@@ -9,8 +11,8 @@ function App() {
 
   return (
     <>
-    <Todolist/>
-    <Todolistform/>
+    {/* <Todolist/> */}
+    {/* <Todolistform/> */}
     <Gallery/>
     </>
   )
